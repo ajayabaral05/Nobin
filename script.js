@@ -30,7 +30,7 @@ function rotateTheme(){
 }
 
 applyTheme(themes[themeIndex]);
-setInterval(rotateTheme, 3000);
+setInterval(rotateTheme, 1500);
 
 const btn = document.getElementById('joinBtn');
 const footerBrand = document.getElementById('footerBrand');
