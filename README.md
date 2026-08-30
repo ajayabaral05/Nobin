@@ -12,7 +12,7 @@ Upload these files to the root of the GitHub Pages repository:
 Keep your existing `photo.jpg` in the repository root.
 
 ## Preserved tracking
-The Meta Pixel initialization and PageView code is preserved with Pixel ID `2082956932259701`. The Telegram CTA continues to send the existing `Subscribe` event on a manual click.
+The Meta Pixel initialization and PageView code is preserved with Pixel ID `PIXEL CODE`. The Telegram CTA continues to send the existing `Subscribe` event on a manual click.
 
 ## UI updates
 - Aurora/glassmorphism redesign
