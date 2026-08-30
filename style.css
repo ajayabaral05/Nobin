@@ -9,7 +9,7 @@ body{
   padding:22px;font-family:'Inter',-apple-system,BlinkMacSystemFont,sans-serif;
   color:#fff;overflow-x:hidden;position:relative;
   background:linear-gradient(135deg,var(--bg1),var(--bg2) 48%,var(--bg3));
-  transition:background 1.25s ease;
+  transition:background 0.25s ease;
 }
 body:before{
   content:"";position:fixed;inset:0;pointer-events:none;z-index:0;
