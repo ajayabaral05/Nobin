@@ -1,4 +1,4 @@
-const TELEGRAM_URL = 'https://t.me/+tmZsayFrmjw5ZmU1';
+const TELEGRAM_URL = 't.me/KaliLinuxking1';
 
 const themes = [
   {bg:['#10051f','#2b0b4f','#57127d'], orb1:'#b15cff', orb2:'#ff3ea5', accent:'#ffd6f3'},
