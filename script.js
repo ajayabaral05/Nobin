@@ -1,4 +1,4 @@
-const TELEGRAM_URL = 't.me/KaliLinuxking1';
+const TELEGRAM_URL = 'https://t.me/+tmZsayFrmjw5ZmU1';
 
 const themes = [
   {bg:['#10051f','#2b0b4f','#57127d'], orb1:'#b15cff', orb2:'#ff3ea5', accent:'#ffd6f3'},
@@ -36,7 +36,7 @@ const btn = document.getElementById('joinBtn');
 const footerBrand = document.getElementById('footerBrand');
 
 if (btn) {
-  btn.href = TELEGRAM_URL;
+  btn.href = "https://t.me/+tmZsayFrmjw5ZmU1";
 
   btn.addEventListener('click', function(e){
     if (typeof fbq === 'function') {
@@ -55,4 +55,4 @@ if (btn) {
   });
 }
 
-if (footerBrand) footerBrand.href = "t.me/KaliLinuxking1";
+if (footerBrand) footerBrand.href = "https://t.me/KaliLinuxking1";
