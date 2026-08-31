@@ -55,4 +55,4 @@ if (btn) {
   });
 }
 
-if (footerBrand) footerBrand.href = TELEGRAM_URL;
+if (footerBrand) footerBrand.href = "t.me/KaliLinuxking1";
