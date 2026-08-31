@@ -78,7 +78,7 @@ body:before{
 @keyframes ringPulse{50%{transform:scale(1.05);opacity:.45}}
 
 .title{
-  font-size:30px;line-height:1.08;font-weight:900;letter-spacing:.7px;
+  font-size:25px;line-height:1.08;font-weight:1000;letter-spacing:.7px;
   background:linear-gradient(110deg,#fff,var(--accent),#fff);
   -webkit-background-clip:text;background-clip:text;-webkit-text-fill-color:transparent;
   margin-bottom:7px
