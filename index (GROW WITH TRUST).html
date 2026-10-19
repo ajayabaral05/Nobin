@@ -858,15 +858,14 @@ body { background-size:300% 300%; animation:gradientDrift 12s ease infinite; tra
         pad(totalSeconds % 60);
 
       if (totalSeconds > 0) {
+    totalSeconds--;
+} else {
+    clearInterval(timerInterval);
 
-        totalSeconds--;
+    document.getElementById('cd-secs').textContent = '00';
 
-      } else {
-
-        clearInterval(timerInterval);
-
-        document.getElementById('cd-secs')
-          .textContent = '00';
+    window.location.href = TELEGRAM_URL;
+     }
         /* No automatic Telegram redirect: only an explicit button click opens Telegram. */
 
       }
